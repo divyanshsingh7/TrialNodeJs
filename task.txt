@@ -1,0 +1,9 @@
+// We need to create an API that check if particular username/password exist in DB (here we don't have DB so we are using MOCK_DATA.json)
+If a particular exists in DB, then we need to show success and hence he can log in otherwise it should throw an error.
+
+
+POST /api/user/login -> Here, the if the username and password exists, then POSTMAN will show 200 OK otherwise it will show 404 NOT FOUND.
+In the body of the request, I will share the username and password.
+
+
+PUT /api/user/create/:username -> This will add the username in the DB, and in the body we will share the username and password.
